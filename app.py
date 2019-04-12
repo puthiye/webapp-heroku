@@ -1,5 +1,5 @@
 import requests
 
 while True: 
-  print Pinging....
+  print("Hello")
   res = requests.get('https://appputh2.herokuapp.com/')
