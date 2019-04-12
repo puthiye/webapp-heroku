@@ -1,5 +1,8 @@
 import requests
 
+f = open('helloworld.txt','w')
+f.write('hello world')
+f.close()
+
 while True: 
-  echo Hello >> /app/testlog
-  res = requests.get('https://appputh2.herokuapp.com/')
+    res = requests.get('https://appputh2.herokuapp.com/')
